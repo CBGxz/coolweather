@@ -15,9 +15,6 @@
 
     </RelativeLayout>
     
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
 
     <TextView
         android:id="@+id/countryView"
@@ -85,4 +82,12 @@
         android:layout_marginTop="28dp"
         android:text="坐标"
         android:textSize="30sp" />
+
+     <Button
+         android:text="选择其他城市"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/chooseButton"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentEnd="true"/>
 </RelativeLayout>
